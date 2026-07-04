@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 230px;
+  height: 300px;
+  transform: translate(30px, 30px);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.image {
+  transform: translate(0px, 10px);
+  height: 100px;
+  width: 100px;
+}
+.product-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+
+  transition-duration: 0.3s;
+
+  transition-timing-function: ease-in-out;
+}
+
+.cart {
+  background-color: #f3f4f6;
+}
+
+.buy {
+  background-color: #2563eb;
+  color: white;
+}
+
+.dis {
+  font-size: 12px;
+  margin-top: 20px;
+  color: #555;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  opacity: 0.8;
+}
+
+.container2 {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+
+  margin-top: 50px;
+  cursor: pointer;
+  gap: 20px;
+  transition: 0.3s;
+
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.container2:hover {
+  transform: translateY(-4px);
+}
+
+.name2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 10px;
+
+  text-align: left;
+  margin-bottom: 6px;
+}
+
+.dis2{
+    font-size:13px;
+    font-weight:bolder;
+}
+
+.banner {
+  display: inline-block;
+  background-color: #cc0c39;
+  color: white;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.price-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.price2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.mrp {
+  color: #666;
+  font-size: 14px;
+}
+
+.old-price {
+  text-decoration: line-through;
+}
+
+.discount {
+  color: #cc0c39;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.date {
+  margin-top: 10px;
+}
+.time {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btn2 {
+  border: none;
+  background-color: #ffd814;
+  border-radius: 20px;
+  padding: 8px 16px;
+  width: 50%;
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn2:hover {
+  background-color: #f7ca00;
+  transform: translateY(-2px);
+}
